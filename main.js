@@ -3,4 +3,4 @@ function tocaSomGroot () {
 }
 
 
-document.querySelector('.tecla_groot');
+document.querySelector('.tecla_groot').onclick = tocaSomGroot;
